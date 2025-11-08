@@ -1,0 +1,82 @@
+:root {
+    --bs-sidebar-width: 250px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Khmer OS Battambang", sans-serif;
+    background: #f8f9fa;
+    font-size: 0.875rem;
+    /* Light grey background */
+}
+
+/* Sidebar Styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    /* ដាក់លើ Navbar ពេល Mobile */
+    padding: 48px 0 0;
+    /* ទុកចន្លោះសម្រាប់ Fixed Navbar */
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    width: var(--bs-sidebar-width);
+    background-color: #ffffff;
+}
+
+/* Main Content Area */
+.main-content {
+    margin-left: var(--bs-sidebar-width);
+    padding: 20px;
+}
+
+/* Navbar Adjustment */
+.navbar-top {
+    z-index: 1020;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 992px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 0;
+    }
+
+    .main-content {
+        margin-left: 0;
+    }
+}
+
+#scrollToTopBtn {
+    /* ទីតាំងនៅខាងស្តាំក្រោម */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* លាក់ប៊ូតុងនៅពេលដំបូង */
+    display: none;
+    z-index: 1000;
+    /* ត្រូវប្រាកដថាប៊ូតុងនៅពីលើធាតុផ្សេងទៀត */
+    padding: 7px 14px;
+    border-radius: 7px;
+    /* រាងមូល */
+    /* បន្ថែមភាពរលូន (smooth transition) ពេលបង្ហាញ */
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scrollToTopBtn.show {
+    /* Class សម្រាប់បង្ហាញប៊ូតុង */
+    display: block;
+}
+
+.dashboard-card {
+    transition: all 0.3s ease-in-out; /* កំណត់ចលនាឲ្យរលូន */
+}
+
+.dashboard-card:hover {
+    transform: translateY(-5px); /* លើក Card ឡើង 5px */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175) !important; /* ធ្វើឲ្យស្រមោលកាន់តែក្រាស់ */
+}

@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHST</title>
+    <link rel="icon" href="../vendors/images/edu.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="../vendors/styles/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../vendors/styles/frontend.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/styles/AOS/aos.css">
+
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Menu Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg ">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-4 text-warning" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i> UHST
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2"><a class="nav-link active" href="index.html">ទំព័រដើម</a></li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkCollege" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            មហាវិទ្យាល័យ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkCollege">
+                            <li><a class="dropdown-item" href="#">កសិកម្ម</a></li>
+                            <li><a class="dropdown-item" href="#">រដ្ឋបាលធុរកិច្ច និងសហគ្រិនភាព</a></li>
+                            <li><a class="dropdown-item" href="#">អក្សរសាស្ត្រ និងមនុស្សសាស្ត្រ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkInstitute" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            វិទ្យាស្ថាន
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkInstitute">
+                            <li><a class="dropdown-item" href="#">បច្ចេកវិទ្យាព័ត៌មាន</a></li>
+                            <li><a class="dropdown-item" href="#">ភាសាបរទេស</a></li>
+                            <li><a class="dropdown-item" href="#">បណ្ដុះបណ្ដាលបច្ចេកទេស និងវិជ្ជាជីវៈ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2"><a class="nav-link" href="activity.html">ព័ត៌មាន & សកម្មភាព</a></li>
+                    <li class="nav-item me-2"><a class="nav-link" href="about.html">អំពីយើង</a></li>
+                    <li class="nav-item me-2"><a class="nav-link" href="contact.html">ទំនាក់ទំនង</a></li>
+                </ul>
+
+                <div class="d-flex ms-lg-3">
+                    <a href="../login.html" class="btn btn-outline-warning btn-sm me-2 fw-bold text-white border-white">
+                        ចូលគណនី
+                    </a>
+                    <a href="../register.html" class="btn btn-warning btn-sm fw-bold">
+                        ចុះឈ្មោះ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Menu Bar -->
+
+    <!-- Slide Show -->
+    <header class="hero-section container-fluid">
+        <div id="uhstCarousel" class="carousel slide" data-bs-ride="carousel">
+
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#uhstCarousel" data-bs-slide-to="6" aria-label="Slide 0"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-12\ 081305.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-once="true">
+                            ស្វាគមន៍មកកាន់ សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ
+                        </h1>
+
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+                            data-aos-once="true">
+                            បណ្តុះបណ្តាលធនធានមនុស្ស ប្រកបដោយគុណភាព សីលធម៌ និងសមត្ថភាព
+                        </p>
+
+                        <a href="register.html" class="btn btn-primary btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-duration="600" data-aos-delay="600" data-aos-once="true">
+                            ដាក់ពាក្យឥឡូវនេះ
+                        </a>
+
+                        <a href="programs.html" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-duration="600" data-aos-delay="800" data-aos-once="true">
+                            មើលកម្មវិធីសិក្សា
+                        </a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 085149.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">បច្ចេកវិទ្យាព័ត៌មាន</h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">
+                            ត្រៀមខ្លួនសម្រាប់បដិវត្តន៍ឧស្សាហកម្មទី៤
+                            ជាមួយនឹងជំនាញឌីជីថលថ្មីៗ</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖</h4>
+                        <div class="container mb-2">
+                            <div class="row justify-content-center text-center g-3">
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-cpu-fill text-info me-2"></i>
+                                        វិទ្យាសាស្ដ្រកុំព្យូទ័រ</p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-code-square text-info me-2"></i>
+                                        កម្មវិធីកុំព្យូទ័រ</p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-briefcase-fill text-info me-2"></i>
+                                        បច្ចេកវិទ្យាព័ត៌មានធុរកិច្ច</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="it_programs.html" class="btn btn-success btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1100">ស្វែងយល់ពីអាយធី</a>
+                        <a href="it_contact.html" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1300">ទំនាក់ទំនងផ្នែកអាយធី</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 133408.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">កសិកម្ម</h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">បង្កើនទិន្នផល
+                            និងនិរន្តរភាពកសិកម្មជាមួយនឹងបច្ចេកទេសទំនើប</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖</h4>
+                        <div class="container mb-2">
+                            <div class="row justify-content-center text-start g-2">
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-graph-up text-success me-2"></i>
+                                        សេដ្ឋកិច្ចកសិកម្ម</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-seedling text-success me-2"></i>
+                                        ក្សេត្រសាស្ដ្រ
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-cow text-success me-2"></i>
+                                        វិទ្យាសាស្ដ្រសត្វ</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="1100">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-tree-fill text-success me-2"></i>
+                                        វិទ្យាសាស្ដ្រព្រៃឈើ</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-success btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1300">ស្វែងយល់ពីកសិកម្ម</a>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1500">ទំនាក់ទំនងផ្នែកកសិកម្ម</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 085149.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">អក្សរសាស្ត្រ និងមនុស្សសាស្ត្រ</h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">ស្វែងយល់ពីឫសគល់នៃវប្បធម៌
+                            សង្គម
+                            និងប្រព័ន្ធនយោបាយជាតិ</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖</h4>
+                        <div class="container mb-2">
+                            <div class="row justify-content-center text-start g-2">
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-book-half text-danger me-2"></i>
+                                        អក្សរសាស្ដ្រខ្មែរ</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-hourglass-split text-danger me-2"></i>
+                                        ប្រវត្ដិវិទ្យា</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-chat-quote-fill text-danger me-2"></i>
+                                        ទស្សនវិជ្ជា</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="1100">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-bank text-danger me-2"></i>
+                                        រដ្ឋបាលសាធារណៈ</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1300">ស្វែងយល់ពីមនុស្សសាស្ត្រ</a>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1500">ទំនាក់ទំនងផ្នែកសិក្សា</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 085149.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">រដ្ឋបាលធុរកិច្ច និងសហគ្រិនភាព</h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">បង្កើត
+                            និងគ្រប់គ្រងអាជីវកម្មរបស់អ្នក
+                            ជាមួយចំណេះដឹងហិរញ្ញវត្ថុ
+                            និងទីផ្សារ</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖</h4>
+                        <div class="container mb-2">
+                            <div class="row justify-content-center  text-center g-3">
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-briefcase-fill text-primary me-2"></i> គ្រប់គ្រង
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="600">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-calculator-fill text-primary me-2"></i> គណនេយ្យ
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-currency-dollar text-primary me-2"></i> ធនាគារ
+                                        និងហិរញ្ញវត្ថុ</p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="800">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-lightbulb-fill text-primary me-2"></i> សហគ្រិន
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-leaf-fill text-primary me-2"></i>
+                                        សហគ្រិនកសិកម្ម</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-success btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1000">ស្វែងយល់ពីធុរកិច្ច</a>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1200">ទំនាក់ទំនងផ្នែកធុរកិច្ច</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 085149.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">ភាសាបរទេស</h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">
+                            ពង្រឹងសមត្ថភាពទំនាក់ទំនងអន្តរជាតិរបស់អ្នក
+                            ដើម្បីឱកាសការងារសកល</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖
+                        </h4>
+                        <div class="container mb-2">
+                            <div class="row justify-content-center text-center g-3">
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-globe2 text-info me-2"></i>
+                                        ភាសាអង់គ្លេស</p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-patch-fill text-danger me-2"></i>
+                                        ភាសាចិន</p>
+                                </div>
+
+                                <div class="col-12 col-md-4" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-megaphone-fill text-warning me-2"></i> ភាសាគូរ៉េ
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1100">ស្វែងយល់ពីកម្មវិធីភាសា</a>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1300">ទំនាក់ទំនងផ្នែកភាសា</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <div class="hero-image"
+                        style="background-image: url('../vendors/images/Screenshot\ 2025-10-14\ 085149.png'); height: 600px; background-size: cover; background-position: center;">
+                    </div>
+                    <div class="carousel-caption d-block">
+                        <h1 class="display-4 fw-bolder mt-5" data-aos="fade-up">បណ្ដុះបណ្ដាលបច្ចេកទេស និងវិជ្ជាជីវៈ
+                        </h1>
+                        <p class="lead mb-4 mt-5" data-aos="fade-up" data-aos-delay="200">ជំនាញជាក់ស្តែង
+                            គុណភាពការងារខ្ពស់
+                            និងឱកាសការងារភ្លាមៗ</p>
+
+                        <h4 class="text-white mt-5 mb-3" data-aos="fade-up" data-aos-delay="400">ជំនាញឯកទេស៖</h4>
+                        <div class="container mb-5">
+                            <div class="row justify-content-center text-start g-2">
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="500">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-laptop-fill text-info me-2"></i>
+                                        វិទ្យាសាស្ដ្រកុំព្យូទ័រ</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="700">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-tree-fill text-success me-2"></i>
+                                        ក្សេត្រសាស្រ្ដ
+                                    </p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="900">
+                                    <p class="h5 fw-normal text-white"><i class="bi bi-cookie text-warning me-2"></i>
+                                        កែច្នៃអាហារ</p>
+                                </div>
+
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="1100">
+                                    <p class="h5 fw-normal text-white"><i
+                                            class="bi bi-cash-stack text-primary me-2"></i> គណនេយ្យ</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-warning btn-lg me-2 mt-5" data-aos="zoom-in"
+                            data-aos-delay="1300">ស្វែងយល់ពី
+                            ផ្នែកបណ្ដុះបណ្ដាល</a>
+                        <a href="#" class="btn btn-outline-light btn-lg mt-5" data-aos="zoom-in"
+                            data-aos-delay="1500">ទំនាក់ទំនងផ្នែកបច្ចេកទេស</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#uhstCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">មុន</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#uhstCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">បន្ទាប់</span>
+            </button>
+        </div>
+    </header>
+    <!-- End Slide Show -->
+
+    <!-- Section Program -->
+    <section class="py-5 container-fluid">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-down" data-aos-duration="800">
+                កម្មវិធីសិក្សាសំខាន់ៗ
+            </h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title fw-bold">បច្ចេកវិទ្យាព័ត៌មាន</h5>
+                            <p class="card-text">រៀនពីការសរសេរកម្មវិធី បណ្តាញទំនាក់ទំនង និងសន្តិសុខព័ត៌មាន។</p>
+                            <a href="it_programs.html" class="btn btn-sm btn-outline-primary">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="400">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-book-open fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title fw-bold">អក្សរសាស្ត្រអង់គ្លេស</h5>
+                            <p class="card-text">បង្កើនសមត្ថភាពភាសាអង់គ្លេសសម្រាប់ការបកប្រែ និងទំនាក់ទំនង។</p>
+                            <a href="#" class="btn btn-sm btn-outline-danger">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-seedling fa-3x text-info mb-3"></i>
+                            <h5 class="card-title fw-bold">កសិកម្ម</h5>
+                            <p class="card-text">សិក្សាអំពីបច្ចេកទេសដាំដុះ ដំណាំ យថាផល និងការគ្រប់គ្រងកសិដ្ឋាន។</p>
+                            <a href="#" class="btn btn-sm btn-outline-info">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="800">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-handshake fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title fw-bold">រដ្ឋបាលធុរកិច្ច និងសហគ្រិនភាព</h5>
+                            <p class="card-text">រៀនពីការចាប់ផ្ដើមអាជីវកម្ម យុទ្ធសាស្ត្រទីផ្សារ
+                                និងហិរញ្ញវត្ថុសម្រាប់ភាពជោគជ័យ។</p>
+                            <a href="#" class="btn btn-sm btn-outline-warning">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="1000">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-university fa-3x text-secondary mb-3"></i>
+                            <h5 class="card-title fw-bold">អក្សរសាស្ត្រ និងមនុស្សសាស្ត្រ</h5>
+                            <p class="card-text">សិក្សាអំពីប្រវត្តិសាស្ត្រ វប្បធម៌ ទស្សនវិជ្ជា
+                                និងអក្សរសិល្ប៍ជាតិ-អន្តរជាតិ។
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-secondary">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="1200">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-language fa-3x text-muted mb-3"></i>
+                            <h5 class="card-title fw-bold">ភាសាបរទេស</h5>
+                            <p class="card-text">ផ្ដោតលើជំនាញភាសាចម្បង (ដូចជា អង់គ្លេស បារាំង ចិន) សម្រាប់ការបកប្រែ
+                                និងទំនាក់ទំនង។</p>
+                            <a href="#" class="btn btn-sm btn-outline-dark">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="1400">
+                    <div class="card card-program h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-tools fa-3x text-dark mb-3"></i>
+                            <h5 class="card-title fw-bold">បណ្ដុះបណ្ដាលបច្ចេកទេស និងវិជ្ជាជីវៈ</h5>
+                            <p class="card-text">ទទួលយកការបណ្ដុះបណ្ដាលរយៈពេលខ្លី និងវែង
+                                លើជំនាញជាក់ស្ដែងសម្រាប់វិជ្ជាជីវៈ។
+                            </p>
+                            <a href="#" class="btn btn-sm btn-outline-danger">ស្វែងយល់បន្ថែម</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End Section Program -->
+
+    <!-- Section Info & Activity -->
+    <section class="py-5 bg-light container-fluid">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-down" data-aos-duration="800">
+                ព័ត៌មាន និងសកម្មភាពថ្មីៗ
+            </h2>
+            <div class="row g-4">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">ការចុះឈ្មោះចូលរៀនឆ្នាំសិក្សាថ្មី ២០២៥</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ២២ កញ្ញា ២០២៥
+                            </p>
+                            <p class="card-text">
+                                សាកលវិទ្យាល័យសូមប្រកាសអំពីការចាប់ផ្តើមទទួលពាក្យចុះឈ្មោះនិស្សិតថ្មី...
+                            </p>
+                            <a href="news_detail_registration.html" class="btn btn-sm btn-link">អានបន្ត</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">សិក្ខាសាលាស្តីពី AI សម្រាប់និស្សិត IT</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ០១ តុលា ២០២៥
+                            </p>
+                            <p class="card-text">មហាវិទ្យាល័យ IT បានរៀបចំសិក្ខាសាលាស្តីពីការប្រើប្រាស់បច្ចេកវិទ្យា
+                                AI
+                                ក្នុងវិស័យការងារ...</p>
+                            <a href="#" class="btn btn-sm btn-link">អានបន្ត</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="600">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">ពិធីប្រគល់សញ្ញាបត្រ ឆ្នាំ២០២៥</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ១៥ តុលា ២០២៥
+                            </p>
+                            <p class="card-text">នឹងប្រព្រឹត្តទៅក្រោមអធិបតីភាពដ៏ខ្ពង់ខ្ពស់ សាស្រ្តាចារ្យបណ្ឌិត
+                                សាកលវិទ្យាធិការ...</p>
+                            <a href="#" class="btn btn-sm btn-link">អានបន្ត</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="800">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">ការប្រកួតផែនការអាជីវកម្មថ្នាក់ជាតិ</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ២០ តុលា ២០២៥
+                            </p>
+                            <p class="card-text">
+                                បើកឱកាសឲ្យនិស្សិតផ្នែកធុរកិច្ចទាំងអស់ដាក់គម្រោងដេញថ្លៃរកថវិកាឧបត្ថម្ភ...
+                            </p>
+                            <a href="#" class="btn btn-sm btn-link">អានបន្ត</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-right" data-aos-delay="1000">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">បើកវគ្គបណ្ដុះបណ្ដាលភាសាចិនកម្រិតដំបូង</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ០៥ វិច្ឆិកា
+                                ២០២៥
+                            </p>
+                            <p class="card-text">
+                                មជ្ឈមណ្ឌលភាសាបរទេសបានប្រកាសបើកវគ្គសិក្សាភាសាចិនរយៈពេលខ្លីសម្រាប់សាធារណជន...
+                            </p>
+                            <a href="#" class="btn btn-sm btn-link">ចុះឈ្មោះ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="1200">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">ទស្សនកិច្ចសិក្សានៅកសិដ្ឋានទំនើប</h5>
+                            <p class="card-text text-muted"><i class="far fa-calendar-alt me-2"></i> ១០ វិច្ឆិកា
+                                ២០២៥
+                            </p>
+                            <p class="card-text">រៀបចំដោយមហាវិទ្យាល័យកសិកម្ម
+                                ដើម្បីឲ្យនិស្សិតបានយល់ដឹងពីបច្ចេកវិទ្យាកសិកម្មថ្មីៗ...</p>
+                            <a href="#" class="btn btn-sm btn-link">អានបន្ត</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-5" data-aos="zoom-in" data-aos-delay="1400">
+                <a href="#" class="btn btn-outline-primary">មើលព័ត៌មានទាំងអស់</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Info & Activity -->
+
+    <!-- Section Choose -->
+    <section class="py-5 container-fluid">
+        <div class="container text-center">
+            <h2 class="section-title" data-aos="fade-down" data-aos-duration="1000">
+                ហេតុអ្វីត្រូវជ្រើសរើស សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ?
+            </h2>
+            <p class="lead text-muted mb-5" data-aos="fade-down" data-aos-delay="300">
+                យើងប្តេជ្ញាផ្តល់ការអប់រំប្រកបដោយគុណភាពខ្ពស់ និងតម្រូវតាមទីផ្សារការងារ
+            </p>
+
+            <div class="row">
+                <div class="col-md-3 mb-4" data-aos="fade-right" data-aos-delay="500">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-graduation-cap fa-3x text-success mb-3"></i>
+                        <h3 class="fw-bold text-success">15+</h3>
+                        <p class="text-muted small">កម្មវិធីសិក្សា និងជំនាញ</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="700">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-users fa-3x text-primary mb-3"></i>
+                        <h3 class="fw-bold text-primary">70+</h3>
+                        <p class="text-muted small">សាស្រ្តាចារ្យមានបទពិសោធន៍</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-up" data-aos-delay="900">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-briefcase fa-3x text-info mb-3"></i>
+                        <h3 class="fw-bold text-info">90%</h3>
+                        <p class="text-muted small">និស្សិតមានការងារធ្វើ</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4" data-aos="fade-left" data-aos-delay="1100">
+                    <div class="p-4 border rounded shadow-sm h-100">
+                        <i class="fas fa-map-marker-alt fa-3x text-danger mb-3"></i>
+                        <h3 class="fw-bold text-danger">STEM Center</h3>
+                        <p class="text-muted small">មជ្ឈមណ្ឌលស្រាវជ្រាវទំនើប</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Choose -->
+
+    <!--  -->
+    <section class="py-5 bg-light container-fluid">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-down" data-aos-duration="800">
+                ព័ត៌មានសម្រាប់ការចូលរៀនឆ្នាំសិក្សា ២០២៥-២០២៦
+            </h2>
+
+            <div class="row align-items-center">
+                <div class="col-lg-7 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="400">
+                    <div class="card p-4 shadow-sm h-100 border-start border-primary border-5">
+                        <h4 class="text-primary mb-3"><i class="far fa-calendar-alt me-2"></i> កាលបរិច្ឆេទសំខាន់ៗ
+                        </h4>
+                        <ul class="list-group list-group-flush mb-4">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <strong>ថ្ងៃចាប់ផ្តើមទទួលពាក្យ</strong>
+                                <span class="badge bg-secondary">ថ្ងៃទី ០១ ខែ តុលា</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <strong>ថ្ងៃផុតកំណត់ដាក់ពាក្យ</strong>
+                                <span class="badge bg-danger">ថ្ងៃទី ៣០ ខែ វិច្ឆិកា</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <strong>ការប្រឡងចូលរៀន</strong>
+                                <span class="badge bg-warning text-dark">ថ្ងៃទី ១៥ ខែ ធ្នូ</span>
+                            </li>
+                        </ul>
+
+                        <h4 class="text-success mb-3"><i class="fas fa-file-alt me-2"></i> តម្រូវការមូលដ្ឋាន</h4>
+                        <p class="mb-0">បេក្ខជនត្រូវមានសញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិ (បាក់ឌុប) ឬសញ្ញាបត្រសមមូល។
+                            ព័ត៌មានលម្អិតសូមចុចលើប៊ូតុងខាងស្តាំ។</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-5" data-aos="fade-left" data-aos-delay="600">
+                    <div class="text-center p-5 rounded bg-primary text-white shadow">
+                        <h3 class="fw-bold mb-3">ត្រៀមខ្លួនជាស្រេចហើយឬនៅ?</h3>
+                        <p class="lead mb-4">កុំបង្អង់យូរ! ដាក់ពាក្យចុះឈ្មោះអនឡាញឥឡូវនេះ ដើម្បីក្លាយជាផ្នែកមួយនៃ
+                            UHST។
+                        </p>
+
+                        <a href="#" class="btn btn-warning btn-lg fw-bold w-100 mb-3" data-aos="zoom-in"
+                            data-aos-delay="800">
+                            <i class="fas fa-edit me-2"></i> ដាក់ពាក្យចុះឈ្មោះភ្លាមៗ
+                        </a>
+
+                        <a href="#" class="btn btn-outline-light w-100">
+                            ទាញយកឯកសារលក្ខខណ្ឌចូលរៀន (PDF)
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <!--  -->
+    <section class="py-5 bg-white container-fluid">
+        <div class="container">
+            <h2 class="text-center section-title mb-5" data-aos="fade-up" data-aos-duration="800">
+                សមិទ្ធផលស្រាវជ្រាវ និងសាស្រ្តាចារ្យឆ្នើម
+            </h2>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right" data-aos-delay="400">
+                    <div class="p-4 border rounded h-100 bg-light">
+                        <h3 class="text-info mb-3"><i class="fas fa-microscope me-2"></i> គម្រោងស្រាវជ្រាវសំខាន់ៗ
+                        </h3>
+                        <ul class="list-unstyled">
+                            <li class="mb-3 border-bottom pb-2" data-aos="fade-up" data-aos-delay="500">
+                                <h5 class="fw-bold text-dark">ការអភិវឌ្ឍប្រព័ន្ធគ្រប់គ្រងទិន្នន័យកសិកម្ម (Agri-Data
+                                    System)
+                                </h5>
+                                <small class="text-muted">មហាវិទ្យាល័យកសិកម្ម និងបច្ចេកវិទ្យា</small>
+                            </li>
+                            <li class="mb-3 border-bottom pb-2" data-aos="fade-up" data-aos-delay="700">
+                                <h5 class="fw-bold text-dark">ផលប៉ះពាល់នៃការប្រើប្រាស់បច្ចេកវិទ្យា AI
+                                    លើទីផ្សារការងារកម្ពុជា
+                                </h5>
+                                <small class="text-muted">មហាវិទ្យាល័យវិទ្យាសាស្រ្តសង្គម</small>
+                            </li>
+                            <li class="mb-3" data-aos="fade-up" data-aos-delay="900">
+                                <h5 class="fw-bold text-dark">គម្រោងស្ថាបនាស្ពានធន់នឹងទឹកជំនន់</h5>
+                                <small class="text-muted">មហាវិទ្យាល័យវិស្វកម្ម</small>
+                            </li>
+                        </ul>
+                        <a href="#" class="btn btn-outline-info mt-3" data-aos="zoom-in"
+                            data-aos-delay="1000">អានព័ត៌មានស្រាវជ្រាវបន្ថែម</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-6" data-aos="fade-left" data-aos-delay="400">
+                    <div class="p-4 border rounded h-100 shadow-sm">
+                        <h3 class="text-success mb-3"><i class="fas fa-chalkboard-teacher me-2"></i>
+                            សាស្រ្តាចារ្យលេចធ្លោប្រចាំសប្តាហ៍</h3>
+
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom" data-aos="zoom-in"
+                            data-aos-delay="600">
+                            <img src="https://placehold.net/avatar-5.svg" class="rounded-circle me-3" alt="Teacher 1"
+                                width="80" height="80">
+                            <div>
+                                <h5 class="mb-0 fw-bold">បណ្ឌិត. សែម វិបុល</h5>
+                                <p class="text-muted mb-1">ប្រធានដេប៉ាតឺម៉ង់ គ្រប់គ្រងពាណិជ្ជកម្ម</p>
+                                <small class="text-success"><i class="fas fa-medal me-1"></i> មានបទពិសោធន៍ ១៥
+                                    ឆ្នាំ</small>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-center mb-4 pb-3 border-bottom" data-aos="zoom-in"
+                            data-aos-delay="900">
+                            <img src="https://placehold.net/avatar-4.svg" class="rounded-circle me-3" alt="Teacher 2"
+                                width="80" height="80">
+                            <div>
+                                <h5 class="mb-0 fw-bold">សាស្រ្តាចារ្យ. វ៉ាន់ សុផាណិត</h5>
+                                <p class="text-muted mb-1">អ្នកជំនាញផ្នែក Cybersecurity</p>
+                                <small class="text-primary"><i class="fas fa-lightbulb me-1"></i>
+                                    អ្នកស្រាវជ្រាវផ្នែកបច្ចេកវិទ្យា</small>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary mt-3" data-aos="zoom-in"
+                            data-aos-delay="1200">មើលបញ្ជីឈ្មោះសាស្រ្តាចារ្យទាំងអស់</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <!--  -->
+    <section class="py-5 container-fluid">
+        <div class="container">
+            <h2 class="text-center section-title" data-aos="fade-up" data-aos-duration="800">
+                អ្វីដែលនិស្សិតនិយាយអំពីពួកយើង
+            </h2>
+            <p class="text-center mb-5 text-muted" data-aos="fade-up" data-aos-delay="200">
+                ស្តាប់បទពិសោធន៍ពិតពីនិស្សិត និងអតីតនិស្សិតរបស់យើង
+            </p>
+
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="zoom-in"
+                data-aos-delay="400">
+
+                <div class="carousel-inner p-5 bg-white shadow-lg rounded">
+
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/avatar.svg"
+                                    class="rounded-circle mb-3 border border-3 border-primary" alt="Student 1"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"UHST បានផ្លាស់ប្តូរជីវិតខ្ញុំ!"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-primary"></i>
+                                    ខ្ញុំពិតជាពេញចិត្តនឹងកម្មវិធីសិក្សានៅមហាវិទ្យាល័យ IT។
+                                    គ្រូ​បង្រៀន​មាន​ចំណេះដឹង​ជ្រៅជ្រះ
+                                    ហើយ​បរិស្ថាន​សិក្សា​ក៏​ទំនើប។ សូមអរគុណ UHST ដែលបានផ្តល់ឱកាសល្អនេះ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-primary"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    លោក **ម៉េង ហេង**<br>
+                                    និស្សិតឆ្នាំទី ៤ ផ្នែកបច្ចេកវិទ្យាព័ត៌មាន
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/avatar-2.svg"
+                                    class="rounded-circle mb-3 border border-3 border-success" alt="Student 2"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"គុណភាពអប់រំខ្ពស់ តម្លៃសមរម្យ"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-success"></i>
+                                    ក្នុងនាមជាអតីតនិស្សិត រដ្ឋបាលពាណិជ្ជកម្ម
+                                    ខ្ញុំមានមោទនភាពដែលបានបញ្ចប់ការសិក្សានៅទីនេះ។
+                                    ចំណេះដឹងដែលខ្ញុំទទួលបានបានជួយខ្ញុំយ៉ាងច្រើនក្នុងការបង្កើតអាជីវកម្មផ្ទាល់ខ្លួន។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-success"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    អ្នកនាង **សុខ ស្រីនាង**<br>
+                                    អតីតនិស្សិត (CEO ក្រុមហ៊ុនខ្នាតតូច)
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/avatar-3.svg"
+                                    class="rounded-circle mb-3 border border-3 border-info" alt="Student 3" width="100"
+                                    height="100">
+                                <h4 class="mb-3">"មន្ទីរពិសោធន៍ទំនើប និងមានឱកាសកម្មសិក្សា"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-info"></i>
+                                    ខ្ញុំស្រលាញ់មហាវិទ្យាល័យកសិកម្មរបស់ UHST ព្រោះមានមន្ទីរពិសោធន៍
+                                    និងកសិដ្ឋានស្រាវជ្រាវផ្ទាល់ខ្លួន។ ខ្ញុំបានអនុវត្តផ្ទាល់ច្រើន
+                                    ដែលជាចំណុចសំខាន់សម្រាប់អ្នកសិក្សាផ្នែកកសិកម្ម។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-info"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    កញ្ញា **សួន ស្រីណា**<br>
+                                    និស្សិតឆ្នាំទី ៣ ផ្នែកវិទ្យាសាស្ត្រដំណាំ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/avatar-4.svg"
+                                    class="rounded-circle mb-3 border border-3 border-warning" alt="Student 4"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"ពង្រឹងជំនាញបកប្រែប្រកបដោយវិជ្ជាជីវៈ"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-warning"></i>
+                                    គ្រូផ្នែកអក្សរសាស្ត្រអង់គ្លេសពិតជាយកចិត្តទុកដាក់។
+                                    ខ្ញុំអាចធ្វើការបកប្រែឯកសារសំខាន់ៗបានយ៉ាងល្អបន្ទាប់ពីបញ្ចប់ការសិក្សានៅទីនេះ។
+                                    វិន័យ និងចំណេះដឹងគឺពិតជាមានតម្លៃ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-warning"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    លោក **ចាន់ វណ្ណឌី**<br>
+                                    អតីតនិស្សិត ផ្នែកបកប្រែ និងបកស្រាយ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/avatar-5.svg"
+                                    class="rounded-circle mb-3 border border-3 border-danger" alt="Student 5"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"បរិយាកាសសិក្សាគាំទ្រ សម្ភារៈគ្រប់គ្រាន់"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-danger"></i>
+                                    សម្រាប់និស្សិតវិស្វកម្ម គឺត្រូវការការអនុវត្តជាក់ស្តែងខ្លាំងណាស់។
+                                    ខ្ញុំសប្បាយចិត្តដែលសាលាមានឧបករណ៍ និងម៉ាស៊ីនគ្រប់គ្រាន់សម្រាប់ពួកយើងធ្វើតេស្ត
+                                    និងរៀនសូត្រ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-danger"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    អ្នកនាង **ម៉ែន ម៉ាលីស**<br>
+                                    និស្សិតឆ្នាំទី ៤ ផ្នែកវិស្វកម្មសំណង់ស៊ីវិល
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/1.png"
+                                    class="rounded-circle mb-3 border border-3 border-secondary" alt="Student 6"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"ផ្តល់ចំណេះដឹងដើម្បីបម្រើការងាររដ្ឋ"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-secondary"></i>
+                                    ខ្ញុំបានរៀនច្រើនអំពីនយោបាយ និងការគ្រប់គ្រងសាធារណៈ។
+                                    ខ្ញុំបានត្រៀមខ្លួនជាស្រេចដើម្បីចូលរួមបម្រើការងារនៅក្នុងស្ថាប័នរដ្ឋាភិបាល
+                                    ជាមួយចំណេះដឹងដ៏រឹងមាំ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-secondary"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    លោក **សុវណ្ណារ៉ា**<br>
+                                    និស្សិតឆ្នាំទី ៤ ផ្នែករដ្ឋបាលសាធារណៈ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/2.png"
+                                    class="rounded-circle mb-3 border border-3 border-warning" alt="Student 7"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"យុទ្ធសាស្ត្រទីផ្សារជាក់ស្តែង និងស៊ីជម្រៅ"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-warning"></i>
+                                    គ្រូបង្ហាត់ផ្នែកទីផ្សារមានបទពិសោធន៍ក្នុងវិស័យឯកជនខ្លាំងណាស់។
+                                    ខ្ញុំរៀនពីករណីសិក្សាពិតៗ ដែលធ្វើឲ្យខ្ញុំយល់ច្បាស់ពីទីផ្សារប្រកួតប្រជែង។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-warning"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    កញ្ញា **វ៉ាន វិជ្ជរ៉ា**<br>
+                                    អតីតនិស្សិត ផ្នែកគ្រប់គ្រងទីផ្សារ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/3.png"
+                                    class="rounded-circle mb-3 border border-3 border-dark" alt="Student 8" width="100"
+                                    height="100">
+                                <h4 class="mb-3">"ជំនាញជាងផ្សារ និងបច្ចេកទេសលឿនរហ័ស"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-dark"></i>
+                                    ខ្ញុំបានចូលរៀនវគ្គបណ្ដុះបណ្ដាលបច្ចេកទេសជាងផ្សាររយៈពេលខ្លី។
+                                    ត្រឹមតែប៉ុន្មានខែ ខ្ញុំទទួលបានការងារដែលមានប្រាក់ខែខ្ពស់។
+                                    នេះជាឱកាសសម្រាប់យុវជនដែលចង់បានជំនាញលឿន។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-dark"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    លោក **រ៉ា កល្យាណ**<br>
+                                    អតីតសិក្ខាកាម ផ្នែកជាងផ្សារ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/4.png"
+                                    class="rounded-circle mb-3 border border-3 border-danger" alt="Student 9"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"គ្រូជនជាតិដើម និងសម្ភារៈទំនើប"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-danger"></i>
+                                    ការរៀនភាសាចិននៅទីនេះគឺពិតជាមានប្រសិទ្ធភាព
+                                    ព្រោះយើងបានរៀនជាមួយគ្រូជនជាតិដើម។
+                                    បច្ចុប្បន្នខ្ញុំធ្វើការជាអ្នកបកប្រែនៅក្នុងក្រុមហ៊ុនចិនធំមួយ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-danger"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    កញ្ញា **មុនី ពិសិដ្ឋ**<br>
+                                    អតីតនិស្សិត ផ្នែកភាសាចិន
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8">
+                                <img src="https://placehold.net/9.png"
+                                    class="rounded-circle mb-3 border border-3 border-primary" alt="Student 10"
+                                    width="100" height="100">
+                                <h4 class="mb-3">"ជំនាញ Network ខ្លាំង ត្រៀមប្រឡងយក Cert"</h4>
+                                <p class="lead fst-italic">
+                                    <i class="fas fa-quote-left fa-sm me-2 text-primary"></i>
+                                    ការសិក្សាផ្នែក Network គឺស៊ីជម្រៅ
+                                    ហើយមានការអនុវត្តនៅក្នុង Lab គ្រប់ពេល។
+                                    ខ្ញុំមានទំនុកចិត្តខ្ពស់ក្នុងការប្រឡងយក Cisco Certification
+                                    បន្ទាប់ពីបញ្ចប់ការសិក្សានៅទីនេះ។
+                                    <i class="fas fa-quote-right fa-sm ms-2 text-primary"></i>
+                                </p>
+                                <footer class="blockquote-footer mt-3">
+                                    លោក **វុត្ថា សម្បត្តិ**<br>
+                                    និស្សិតឆ្នាំទី ៤ ផ្នែកវិស្វកម្មបណ្តាញកុំព្យូទ័រ
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">មុន</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-secondary rounded-circle" aria-hidden="true"></span>
+                    <span class="visually-hidden">បន្ទាប់</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <!-- Footer -->
+    <footer class="footer py-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="300">
+                    <h5 class="fw-bold">សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ</h5>
+                    <p class="small">អាសយដ្ឋាន៖ ភូមិនិគមលើ ឃុំស្រឡប់ ស្រុកត្បូងឃ្មុំ ខេត្តត្បូងឃ្មុំ</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-telegram fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="500">
+                    <h5 class="fw-bold">ទំនាក់ទំនង</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-phone me-2 mb-2"></i>ទូរស័ព្ទ៖ +885 96 4301 974</li>
+                        <li><i class="fas fa-envelope me-2  mb-2"></i>អ៊ីម៉ែល៖ info@uhst.edu.kh</li>
+                        <li><i class="fas fa-globe me-2  mb-2"></i>គេហទំព័រ៖ www.uhst.edu.kh</li>
+                        <li><i class="fas fa-fax me-2  mb-2"></i>ទូរសារ៖ +885 24 555 888</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="700">
+                    <div class="col-md-4" data-aos="fade-left" data-aos-delay="700">
+                        <h5 class="fw-bold">ផែនទី</h5>
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe
+                                src="https://maps.google.com/maps?q=11.897939300602737,105.79936899015512&z=15&output=embed"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-4 mb-3">
+        <div class="text-center small">
+            © <span id="currentYear"></span> សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ | រក្សាសិទ្ធិគ្រប់យ៉ាង។
+        </div>
+        </div>
+    </footer>
+
+    <a href="#" id="scrollToTopBtn" class="btn btn-lg btn-primary shadow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- End Footer -->
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="../vendors/scripts/bootstrap.bundle.min.js"></script>
+    <script src="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json"></script>
+
+    <script>
+        // យកធាតុប៊ូតុង
+        var mybutton = document.getElementById("scrollToTopBtn");
+        // ចំនួន pixels ដែលត្រូវអូសចុះក្រោមដើម្បីបង្ហាញប៊ូតុង
+        var scrollThreshold = 300;
+        // មុខងារសម្រាប់បង្ហាញ/លាក់ប៊ូតុង
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+                mybutton.classList.add("show");
+            } else {
+                mybutton.classList.remove("show");
+            }
+        }
+        // មុខងារសម្រាប់រំកិលទៅលើវិញ
+        mybutton.addEventListener('click', function (e) {
+            e.preventDefault(); // ទប់ស្កាត់ការរំកិលលោតភ្លាមៗ (Default behavior)
+
+            // ប្រើ window.scrollTo ជាមួយ behavior: 'smooth' សម្រាប់ភាពរលូន
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+    <script src="../vendors/scripts/AOS/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

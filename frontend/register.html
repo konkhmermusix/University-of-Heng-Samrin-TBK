@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHST</title>
+    <link rel="icon" href="../vendors/images/edu.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="../vendors/styles/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../vendors/styles/frontend.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/styles/AOS/aos.css">
+
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff">
+    <link rel="stylesheet" type="text/css" href="../vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff2">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Menu Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bolder fs-4 text-warning" href="index.html">
+                <i class="fas fa-graduation-cap me-2"></i> UHST
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-2"><a class="nav-link active" href="index.html">ទំព័រដើម</a></li>
+
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkCollege" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            មហាវិទ្យាល័យ
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkCollege">
+                            <li><a class="dropdown-item" href="#">កសិកម្ម</a></li>
+                            <li><a class="dropdown-item" href="#">រដ្ឋបាលធុរកិច្ច និងសហគ្រិនភាព</a></li>
+                            <li><a class="dropdown-item" href="#">អក្សរសាស្ត្រ និងមនុស្សសាស្ត្រ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown me-2">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkInstitute" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            វិទ្យាស្ថាន
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkInstitute">
+                            <li><a class="dropdown-item" href="#">បច្ចេកវិទ្យាព័ត៌មាន</a></li>
+                            <li><a class="dropdown-item" href="#">ភាសាបរទេស</a></li>
+                            <li><a class="dropdown-item" href="#">បណ្ដុះបណ្ដាលបច្ចេកទេស និងវិជ្ជាជីវៈ</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2"><a class="nav-link" href="activity.html">ព័ត៌មាន & សកម្មភាព</a></li>
+                    <li class="nav-item me-2"><a class="nav-link" href="about.html">អំពីយើង</a></li>
+                    <li class="nav-item me-2"><a class="nav-link" href="contact.html">ទំនាក់ទំនង</a></li>
+                </ul>
+
+                <div class="d-flex ms-lg-3">
+                    <a href="" class="btn btn-outline-warning btn-sm me-2 fw-bold text-white border-white">
+                        ចូលគណនី
+                    </a>
+                    <a href="" class="btn btn-warning btn-sm fw-bold">
+                        ចុះឈ្មោះ
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Menu Bar -->
+
+    <section class="hero-page-header bg-primary py-5">
+        <div class="container text-center text-white" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="display-4 fw-bold mb-3">ដាក់ពាក្យចុះឈ្មោះចូលរៀន</h1>
+            <p class="lead">បំពេញទម្រង់ខាងក្រោមនេះ ដើម្បីក្លាយជាផ្នែកមួយនៃគ្រួសារសាកលវិទ្យាល័យយើង!</p>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="card p-4 p-md-5 registration-form shadow-lg" data-aos="zoom-in" data-aos-duration="1000">
+                <h3 class="mb-4 text-primary text-center">ព័ត៌មានផ្ទាល់ខ្លួន និងការជ្រើសរើសជំនាញ</h3>
+                <form action="#" method="POST">
+
+                    <h5 class="text-secondary mb-3"><i class="bi bi-person-badge-fill me-2"></i> ព័ត៌មានផ្ទាល់ខ្លួន</h5>
+                    <div class="row g-3 mb-4">
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="khmerName"
+                                    placeholder="ឈ្មោះពេញជាអក្សរខ្មែរ" required>
+                                <label for="khmerName">ឈ្មោះពេញជាអក្សរខ្មែរ</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <input type="text" class="form-control" id="latinName"
+                                    placeholder="ឈ្មោះពេញជាអក្សរឡាតាំង" required>
+                                <label for="latinName">ឈ្មោះពេញជាអក្សរឡាតាំង</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <select class="form-select" id="gender" required>
+                                    <option value="" selected disabled>ជ្រើសរើស...</option>
+                                    <option value="male">ប្រុស</option>
+                                    <option value="female">ស្រី</option>
+                                </select>
+                                <label for="gender">ភេទ</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="date" class="form-control" id="dob" required>
+                                <label for="dob">ថ្ងៃខែឆ្នាំកំណើត</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-floating">
+                                <input type="tel" class="form-control" id="phone" placeholder="លេខទូរស័ព្ទ" required>
+                                <label for="phone">លេខទូរស័ព្ទ</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <input type="email" class="form-control" id="email" placeholder="អ៊ីម៉ែល" required>
+                                <label for="email">អ៊ីម៉ែល</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="text-secondary mb-3 mt-4"><i class="bi bi-mortarboard-fill me-2"></i> ព័ត៌មានសិក្សា</h5>
+                    <div class="row g-3 mb-4">
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="level" required>
+                                    <option value="" selected disabled>ជ្រើសរើស...</option>
+                                    <option value="bachelor">បរិញ្ញាបត្រ</option>
+                                    <option value="associate">បរិញ្ញាបត្ររង</option>
+                                    <option value="tvet">វិជ្ជាជីវៈ (TVET)</option>
+                                </select>
+                                <label for="level">កម្រិតសិក្សាដែលចង់ចូលរៀន</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating">
+                                <select class="form-select" id="faculty" required>
+                                    <option value="" selected disabled>ជ្រើសរើស...</option>
+                                    <option value="business">រដ្ឋបាលធុរកិច្ច</option>
+                                    <option value="it">បច្ចេកវិទ្យាព័ត៌មាន</option>
+                                    <option value="agri">កសិកម្ម</option>
+                                    <option value="humanity">អក្សរសាស្ត្រ និងមនុស្សសាស្ត្រ</option>
+                                </select>
+                                <label for="faculty">ជ្រើសរើសមហាវិទ្យាល័យ</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <select class="form-select" id="major" required>
+                                    <option value="" selected disabled>ជ្រើសរើសជំនាញ...</option>
+                                    <option value="management">គ្រប់គ្រង</option>
+                                    <option value="accounting">គណនេយ្យ</option>
+                                    <option value="cs">វិទ្យាសាស្ដ្រកុំព្យូទ័រ</option>
+                                    <option value="agronomy">ក្សេត្រសាស្ដ្រ</option>
+                                </select>
+                                <label for="major">ជ្រើសរើសជំនាញឯកទេស</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h5 class="text-secondary mb-3 mt-4"><i class="bi bi-check2-square me-2"></i> ការយល់ព្រម</h5>
+                    <div class="form-check mb-4">
+                        <input class="form-check-input" type="checkbox" value="agreed" id="termsCheck" required>
+                        <label class="form-check-label" for="termsCheck">
+                            ខ្ញុំយល់ព្រមតាមលក្ខខណ្ឌនៃការចុះឈ្មោះចូលរៀនរបស់សាកលវិទ្យាល័យ។
+                        </label>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg px-5 mt-3">
+                            <i class="bi bi-send-fill me-2"></i> បញ្ជូនពាក្យចុះឈ្មោះ
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-right" data-aos-delay="300">
+                    <h5 class="fw-bold">សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ</h5>
+                    <p class="small">អាសយដ្ឋាន៖ ភូមិនិគមលើ ឃុំស្រឡប់ ស្រុកត្បូងឃ្មុំ ខេត្តត្បូងឃ្មុំ</p>
+                    <div class="mt-3">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-telegram fa-2x"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="500">
+                    <h5 class="fw-bold">ទំនាក់ទំនង</h5>
+                    <ul class="list-unstyled small">
+                        <li><i class="fas fa-phone me-2 mb-2"></i>ទូរស័ព្ទ៖ +885 96 4301 974</li>
+                        <li><i class="fas fa-envelope me-2  mb-2"></i>អ៊ីម៉ែល៖ info@uhst.edu.kh</li>
+                        <li><i class="fas fa-globe me-2  mb-2"></i>គេហទំព័រ៖ www.uhst.edu.kh</li>
+                        <li><i class="fas fa-fax me-2  mb-2"></i>ទូរសារ៖ +885 24 555 888</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="700">
+                    <div class="col-md-4" data-aos="fade-left" data-aos-delay="700">
+                        <h5 class="fw-bold">ផែនទី</h5>
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe
+                                src="https://maps.google.com/maps?q=11.897939300602737,105.79936899015512&z=15&output=embed"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="mt-4 mb-3">
+        <div class="text-center small">
+            © <span id="currentYear"></span> សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ | រក្សាសិទ្ធិគ្រប់យ៉ាង។
+        </div>
+        </div>
+    </footer>
+
+    <a href="#" id="scrollToTopBtn" class="btn btn-lg btn-primary shadow">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- End Footer -->
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="../vendors/scripts/bootstrap.bundle.min.js"></script>
+    <script src="../vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json"></script>
+
+    <script>
+        // យកធាតុប៊ូតុង
+        var mybutton = document.getElementById("scrollToTopBtn");
+        // ចំនួន pixels ដែលត្រូវអូសចុះក្រោមដើម្បីបង្ហាញប៊ូតុង
+        var scrollThreshold = 300;
+        // មុខងារសម្រាប់បង្ហាញ/លាក់ប៊ូតុង
+        window.onscroll = function () {
+            scrollFunction();
+        };
+        function scrollFunction() {
+            if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+                mybutton.classList.add("show");
+            } else {
+                mybutton.classList.remove("show");
+            }
+        }
+        // មុខងារសម្រាប់រំកិលទៅលើវិញ
+        mybutton.addEventListener('click', function (e) {
+            e.preventDefault(); // ទប់ស្កាត់ការរំកិលលោតភ្លាមៗ (Default behavior)
+
+            // ប្រើ window.scrollTo ជាមួយ behavior: 'smooth' សម្រាប់ភាពរលូន
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+
+    <script src="../vendors/scripts/AOS/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

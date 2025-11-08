@@ -1,0 +1,111 @@
+/* ===== Khmer Fonts Setup ===== */
+
+/* 1. Khmer OS */
+@font-face {
+    font-family: 'KhmerOS';
+    src: url('../fonts/KhmerOS.ttf') format('truetype');
+}
+
+/* 2. Khmer OS Battambang */
+@font-face {
+    font-family: 'KhmerOSBattambang';
+    src: url('../fonts/KhmerOSBattambang-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'KhmerOSBattambang';
+    src: url('../fonts/KhmerOSBattambang-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* 3. Khmer OS Content */
+@font-face {
+    font-family: 'KhmerOSContent';
+    src: url('../fonts/KhmerOSContent-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'KhmerOSContent';
+    src: url('../fonts/KhmerOSContent-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+/* 4. Khmer OS Freehand */
+@font-face {
+    font-family: 'KhmerOSFreehand';
+    src: url('../fonts/KhmerOSFreehand.ttf') format('truetype');
+}
+
+/* 5. Khmer OS Bokor */
+@font-face {
+    font-family: 'KhmerOSBokor';
+    src: url('../fonts/KhmerOSBokor.ttf') format('truetype');
+}
+
+/* ===== Example Font Classes ===== */
+
+.font-khmeros        { font-family: 'KhmerOS', sans-serif; font-size: 16px; }
+.font-battambang18     { font-family: 'KhmerOSBattambang', sans-serif; font-size: 18px; }
+.font-battambang24     { font-family: 'KhmerOSBattambang', sans-serif; font-size: 24px; }
+.font-battambang30     { font-family: 'KhmerOSBattambang', sans-serif; font-size: 30px; }
+.font-content        { font-family: 'KhmerOSContent', sans-serif; font-size: 20px; }
+.font-freehand       { font-family: 'KhmerOSFreehand', cursive; font-size: 22px; }
+.font-bokor          { font-family: 'KhmerOSBokor', cursive; font-size: 24px; }
+.font-moul           { font-family: 'KhmerOSMoul', sans-serif; font-size: 26px; }
+.font-siempo         { font-family: 'KhmerOSSiemreap', sans-serif; font-size: 28px; }
+
+
+.floating-label {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.floating-label input {
+    width: 100%;
+    padding: 12px 40px 12px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    font-size: 16px;
+}
+
+.floating-label label {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #777;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+}
+
+/* When user types or focuses */
+.floating-label input:focus+label,
+.floating-label input:not(:placeholder-shown)+label {
+    top: -8px;
+    left: 10px;
+    font-size: 13px;
+    color: #007bff;
+    background: #fff;
+    padding: 0 4px;
+}
+
+#togglePassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+#toggleComfirmPassword {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #555;
+}
+

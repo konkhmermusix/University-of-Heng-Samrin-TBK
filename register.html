@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Basic Page Info -->
+    <meta charset="utf-8" />
+    <title>ចុះឈ្មោះ</title>
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="vendors/styles/core.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/styles/icon-font.min.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="vendors/styles/font-styles.css">
+    <link rel="stylesheet" type="text/css" href="vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json">
+    <link rel="stylesheet" type="text/css" href="vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff">
+    <link rel="stylesheet" type="text/css" href="vendors/icons/bootstrap-icons-1.13.1/fonts/bootstrap-icons.woff2">
+
+</head>
+
+<body class="login-page">
+    <div class="login-wrap d-flex align-items-center flex-wrap justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <!-- Logo UHST -->
+                <div class="col-md-5 text-center mb-4 mb-md-0">
+                    <img src="vendors/images/logo-uhst.png" alt="UHST Logo" class="logo-uhst" style="width: 60%;">
+                    <h1 class="font-battambang24 mt-2 mb-2">សាកលវិទ្យាល័យ ហេង សំរិន ត្បូងឃ្មុំ</h1>
+                    <h2 class="font-battambang18 mt-2 mb-2">University of Heng Samrin Tbongkhmum</h2>
+                </div>
+
+                <!-- Register Form Box -->
+                <div class="col-md-5">
+                    <div class="login-box bg-white box-shadow border-radius-10 p-4">
+                        <div class="login-title mb-3">
+                            <h2 class="text-center text-primary font-khmeros">ចុះឈ្មោះ</h2>
+                        </div>
+
+                        <form>
+                            <!-- Full Name -->
+                            <div class="floating-label">
+                                <input type="text" id="fullname" placeholder=" " required>
+                                <label for="fullname" class="font-khmeros">ឈ្មោះពេញ</label>
+                                <div class="input-group-append custom">
+                                    <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+                                </div>
+                            </div>
+
+
+                            <!-- Email -->
+                            <div class="floating-label">
+                                <input type="email" id="email" placeholder=" " required>
+                                <label for="email" class="font-khmeros">អ៊ីមែល</label>
+                                <div class="input-group-append custom">
+                                    <span class="input-group-text"><i class="bi bi-envelope-fill"></i></span>
+                                </div>
+                            </div>
+
+                            <!-- Username -->
+                            <div class="floating-label">
+                                <input type="text" id="username" placeholder=" " required>
+                                <label for="username" class="font-khmeros">ឈ្មោះអ្នកប្រើ</label>
+                                <div class="input-group-append custom">
+                                    <span class="input-group-text"><i class="bi bi-person-circle"></i></span>
+                                </div>
+                            </div>
+
+                            <!-- Password -->
+                            <div class="floating-label">
+                                <input type="password" id="password" placeholder=" " required>
+                                <label for="password" class="font-khmeros">ពាក្យសម្ងាត់</label>
+                                <span id="togglePassword"
+                                    style="position:absolute; right:10px; top:50%; transform:translateY(-50%); cursor:pointer;">
+                                    <i class="bi bi-eye-fill"></i>
+                                </span>
+                            </div>
+
+                            <!-- Confirm Password -->
+                            <div class="floating-label">
+                                <input type="password" id="confirm_password" placeholder=" " required>
+                                <label for="password" class="font-khmeros">បញ្ជាក់ពាក្យសម្ងាត់</label>
+                                <span id="toggleComfirmPassword"
+                                    style="position:absolute; right:10px; top:50%; transform:translateY(-50%); cursor:pointer;">
+                                    <i class="bi bi-eye-fill"></i>
+                                </span>
+                            </div>
+
+                            <!-- Register Button -->
+                            <div class="row">
+                                <div class="col-sm-12 font-khmeros">
+                                    <div class="input-group mb-3">
+                                        
+                                            <a href="frontend/index.html" class="btn btn-primary btn-lg btn-block font-khmeros">
+                                                ចុះឈ្មោះ
+                                            </a>
+                                    </div>
+
+                                    <div class="font-16 weight-600 pt-10 pb-10 text-center" data-color="#707373">
+                                        មានគណនីរួចហើយ?
+                                        <a href="login.html" class="text-primary">ចូលនៅទីនេះ</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- js -->
+    <script src="vendors/scripts/core.js"></script>
+    <script src="vendors/scripts/script.min.js"></script>
+    <script src="vendors/scripts/process.js"></script>
+    <script src="vendors/scripts/layout-settings.js"></script>
+    <script src="vendors/icons/bootstrap-icons-1.13.1/bootstrap-icons.json"></script>
+    <script src="vendors/scripts/scriptbtn.js"></script>
+</body>
+
+</html>

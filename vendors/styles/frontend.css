@@ -1,0 +1,296 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Khmer OS Battambang", sans-serif;
+    background: #f8f9fa;
+}
+
+.section-title {
+    color: #004d99;
+    /* ពណ៌ខៀវសម្រាប់ស្ថាប័ន */
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.card-program {
+    transition: transform 0.3s;
+}
+
+.card-program:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: #004d99;
+    color: white;
+}
+
+/* Button style */
+.btn-login {
+    background-color: transparent;
+    border: 1px solid #0dcaf0;
+    color: #0dcaf0;
+    border-radius: 5px;
+    padding: 6px 18px;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0dcaf0;
+    color: #fff;
+}
+
+.btn-register {
+    background-color: #0dcaf0;
+    color: #fff;
+    border-radius: 5px;
+    padding: 6px 18px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #0aa2c0;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    /* ស្រមោលដើម្បីឲ្យអក្សរមើលឃើញច្បាស់ */
+}
+
+.carousel-caption h1,
+.carousel-caption p {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-image {
+    /* រូបភាពផ្ទៃខាងក្រោយសម្រាប់ Carousel */
+    background-repeat: no-repeat;
+}
+
+#scrollToTopBtn {
+    /* ទីតាំងនៅខាងស្តាំក្រោម */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* លាក់ប៊ូតុងនៅពេលដំបូង */
+    display: none;
+    z-index: 1000;
+    /* ត្រូវប្រាកដថាប៊ូតុងនៅពីលើធាតុផ្សេងទៀត */
+    padding: 7px 14px;
+    border-radius: 7px;
+    /* រាងមូល */
+    /* បន្ថែមភាពរលូន (smooth transition) ពេលបង្ហាញ */
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scrollToTopBtn.show {
+    /* Class សម្រាប់បង្ហាញប៊ូតុង */
+    display: block;
+}
+
+/* Unique styles from the second block */
+.hero-about {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1500x400/004d99/ffffff?text=រូបភាព+បរិវេណ+សាកលវិទ្យាល័យ');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.mission-vision-card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.mission-vision-card:hover {
+    transform: translateY(-5px);
+}
+
+.core-values .card {
+    background-color: #e9ecef;
+    border-left: 5px solid #004d99;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+}
+
+.timeline:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #dee2e6;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline-item:nth-child(even) {
+    margin-left: 50%;
+    padding-left: 30px;
+}
+
+.timeline-item:nth-child(odd) {
+    margin-right: 50%;
+    padding-right: 30px;
+    text-align: right;
+}
+
+.timeline-item:before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #004d99;
+    border-radius: 50%;
+    border: 3px solid #dee2e6;
+    top: 6px;
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd):before {
+    right: -7.5px;
+}
+
+.timeline-item:nth-child(even):before {
+    left: -7.5px;
+}
+
+/* Responsive adjustments for Timeline */
+@media (max-width: 768px) {
+    .timeline:before {
+        left: 10px;
+    }
+
+    .timeline-item:nth-child(even),
+    .timeline-item:nth-child(odd) {
+        margin: 0 0 20px 0;
+        padding-left: 30px;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .timeline-item:nth-child(odd):before,
+    .timeline-item:nth-child(even):before {
+        left: 3px;
+        right: auto;
+    }
+}
+
+.hero-contact {
+    background-color: #004d99;
+    /* ពណ៌ខៀវសំខាន់ */
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.contact-info-card {
+    border-left: 5px solid #004d99;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.contact-form-card {
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px;
+    /* កំណត់ទំហំផែនទី */
+    border: 0;
+}
+
+ .news-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    /* Lift card on hover */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.program-card {
+    min-height: 100%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.nav-tabs .nav-link.active {
+    border-bottom: 3px solid var(--bs-primary);
+    color: var(--bs-primary) !important;
+    font-weight: bold;
+}
+
+.registration-form {
+    max-width: 900px;
+    /* កំណត់ទំហំធំបំផុតរបស់ Form */
+    margin: 0 auto;
+}
+
+.program-detail-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://via.placeholder.com/1920x400/0d6efd/ffffff?text=IT+Campus');
+    background-size: cover;
+    background-position: center;
+}
+
+.majors-list i {
+    font-size: 1.5rem;
+    width: 40px;
+}
+
+.contact-detail-hero {
+    background-color: #0d6efd;
+    /* Use Primary color or Info color */
+}
+
+.contact-info-card {
+    border-left: 5px solid var(--bs-info);
+}
+
+.news-hero {
+    background-color: #f8f9fa;
+    /* Light background for detail page */
+}
+
+.registration-timeline {
+    border-left: 3px solid #ffc107;
+    padding-left: 1rem;
+}
